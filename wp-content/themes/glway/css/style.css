@@ -1,0 +1,223 @@
+/*
+		=== Normalize ===
+*/
+body{
+	color: #666;
+	font-family: 'Roboto', sans-serif;
+	background: url('../img/body-bg-2.jpg') fixed;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+}
+a{
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-ms-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+a:hover{
+	text-decoration: none;
+}
+h2 {
+	font-size: 35px;
+	color: #FFF;
+	font-weight: bold;
+}
+h2{
+	margin-top: 0;
+}
+p, h3{
+	color: #FFF;
+}
+p{
+	font-size: 16px;
+    font-weight: 700;
+}
+.modal-dialog {
+    width: 900px;
+}
+/*
+		=== /Normalize ===
+*/
+
+
+/*
+		=== Header ===
+*/
+header{
+
+	background-size: 100%;
+}
+.navbar-header h1{
+	font-size: 30px;
+	color: #ffd816;
+	border: 5px solid;
+	display: block;
+	width: 60px;
+	border-radius: 100px;
+	height: 55px;
+	line-height: 50px;
+	margin: 0 auto;
+	margin-top: 10px;
+	text-align: center;
+}
+.navbar-header{
+	margin-bottom: 30px;
+}
+.lang a, .enter a{
+	padding: 5px 30px;
+	border-radius: 5px;
+	font-weight: bold;
+
+}
+.navbar li a{
+	padding: 5px 30px;
+	color: #214e1c;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 18px;
+}
+.navbar li{
+	margin-right: 15px;
+}
+.navbar li:last-child{
+	margin-right: 0;
+}
+.navbar li a{
+	text-transform: uppercase;
+}
+.navbar .active a, .navbar li a:hover, .lang a:hover, .enter a:hover,.lang a, .enter a{
+	background: #565fc3;
+	box-shadow: 3px 2px 2px 1px #565fc3;
+  color: #FFF;
+}
+.navbar-collapse.collapse{
+	width: 100%;
+}
+.lang{
+	position: absolute;
+	right: 15px;
+	top: 30px;
+}
+.lang .dropdown-menu{
+	margin-top: 8px;
+}
+.lang .dropdown-menu a{
+	background: none;
+	color: #565fc3;
+	box-shadow: none;
+	padding: 5px;
+	font-weight: normal;
+	line-height: 1;
+	margin-top: 5px;
+	text-transform: none;
+}
+.lang .dropdown-menu a:hover{
+	background: none;
+	box-shadow: none;
+}
+.enter{
+	position: absolute;
+	left: 15px;
+	top: 30px;
+}
+.lang a{
+	padding: 10px 15px;
+	margin-top: 30px;
+}
+.navbar-nav {
+    background: #ffffff6b;
+    float: none;
+    text-align: center;
+    padding: 10px 5px;
+    border-radius: 10px;
+}
+.navbar-nav li {
+	float: none;
+	display: inline-block;
+}
+
+/*
+		/Header === 
+*/
+
+
+
+
+/*
+		====== Content ======
+*/
+
+#content{
+	margin: 60px auto 20px;
+    background: #4387d08c;
+    padding: 50px 15px;
+    border-radius: 45px;
+}
+section{
+	margin-bottom: 30px;
+}
+
+/*
+		=== Main-page ===
+*/
+
+.concept, .about, .outlook{
+	text-align: center
+}
+
+.concept img, .about img, .outlook img{
+	margin: 0 auto 20px;
+}
+
+/*
+		=== /Main-page ===
+*/
+
+
+
+/*
+		=== Page ====
+*/
+
+.event .item{
+	margin-bottom: 45px;
+	text-align: center;
+}
+.event .item h2 span{
+	font-size: 14px;
+	position: relative;
+	bottom: 6px;
+    color: #ffd816;
+}
+.event img{
+	margin: 0 auto;
+}
+
+
+.product-header,.product-body,  .career-header h2, .career-body h2, .career-body h3{
+	text-align: center;
+}
+.product-header h2, .product-body h2{
+	font-size: 30px;
+}
+.product-header img, .product-body img, .career-body .item img, .career-header img{
+	margin: 0 auto;
+}
+.product-body .item, .career-body .item{
+	margin-bottom: 45px;
+}
+.product-body .item:nth-child(odd) .col-md-6:first-child{
+	float: right!important;
+}
+/*
+		=== /Page ====
+*/
+
+
+
+
+
+/*
+		====== /Content ======
+*/
