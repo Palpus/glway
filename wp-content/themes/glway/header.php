@@ -30,8 +30,8 @@
 						<div class="navbar-header col-md-12">
 							<div class="enter">
 							<?php
-							$enter-link = ( function_exists( 'fw_get_db_settings_option' ) ) ? fw_get_db_settings_option('enter-link') : '';
-							if( !empty( $enter-link ) ) :
+							$enter = ( function_exists( 'fw_get_db_settings_option' ) ) ? fw_get_db_settings_option('enter') : '';
+							if( !empty( $enter ) ) :
 								?>
 								<a href="#">Войти</a>
 							<?php endif ?>
