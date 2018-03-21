@@ -29,7 +29,12 @@
 				<nav class="navbar">
 						<div class="navbar-header col-md-12">
 							<div class="enter">
-								<a href="#" data-toggle="dropdown">Войти</a>
+							<?php
+							$enter-link = ( function_exists( 'fw_get_db_settings_option' ) ) ? fw_get_db_settings_option('enter-link') : '';
+							if( !empty( $enter-link ) ) :
+								?>
+								<a href="#">Войти</a>
+							<?php endif ?>
 							</div>
 							<?php
 							the_custom_logo();?>
