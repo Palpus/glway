@@ -28,14 +28,6 @@
 			<div class="row">
 				<nav class="navbar">
 						<div class="navbar-header col-md-12">
-							<div class="lang">
-								<a href="#" data-toggle="dropdown">Выберите язык</a>
-								 <ul class="dropdown-menu">
-										<li><a href="#">Русский</a></li>
-										<li><a href="#">Украинский</a></li>
-										<li><a href="#">Казахстанский</a></li>
-								 </ul>
-							</div>
 							<div class="enter">
 								<a href="#" data-toggle="dropdown">Войти</a>
 							</div>
