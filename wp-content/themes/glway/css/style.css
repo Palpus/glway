@@ -225,3 +225,45 @@ section{
 /*
 		====== /Content ======
 */
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 768) and (max-width: 978px) {
+.navbar-header{
+	margin-bottom: 0;
+}
+.navbar-nav{
+	padding-top: 30px;
+}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+	.navbar li{
+	    margin-right: 0;
+	}
+	
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+body {
+    background-size: cover;
+    background-position: left;
+}
+.navbar-toggle .icon-bar{
+	background: #FFF;
+}
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+
+}
