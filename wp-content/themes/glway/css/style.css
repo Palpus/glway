@@ -224,7 +224,12 @@ section{
 .modal-content h4 {
     text-align: center;
 }
-
+footer{
+	color : #FFF;
+}
+footer a{
+	color: #FFF;
+}
 
 
 
