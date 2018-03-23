@@ -221,6 +221,9 @@ section{
     background: #4387d08c;
     color: #FFF;
 }
+.modal-content h4 {
+    text-align: center;
+}
 
 
 
