@@ -33,7 +33,7 @@
 							$enter = ( function_exists( 'fw_get_db_settings_option' ) ) ? fw_get_db_settings_option('enter') : '';
 							if( !empty( $enter ) ) :
 								?>
-								<a href="#">Войти</a>
+								<a href="<?php echo $enter ?>">Войти</a>
 							<?php endif ?>
 							</div>
 							<?php
