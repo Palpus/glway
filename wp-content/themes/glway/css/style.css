@@ -217,7 +217,10 @@ section{
 /*
 		=== /Page ====
 */
-
+.modal-content {
+    background: #4387d08c;
+    color: #FFF;
+}
 
 
 
