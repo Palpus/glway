@@ -15,6 +15,11 @@ $options = array(
 						'label' => __( 'Ссылка кнопки "Войти"', 'glway' ),
 						'desc'  => __( 'Вставьте сюда ссылку', 'glway' ),
 						'type'  => 'text'
+					),
+					'agreement' => array(
+						'label' => __( 'Ссылка кнопки "Войти"', 'glway' ),
+						'desc'  => __( 'Вставьте сюда ссылку', 'glway' ),
+						'type'  => 'wp-editor'
 					)
 				)
 			),
