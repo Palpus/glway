@@ -210,10 +210,6 @@ section{
 .product-body .item:nth-child(odd) .col-md-6:first-child{
 	float: right!important;
 }
-#trp-floater-ls{
-	top: 0;
-	bottom: inherit;
-}
 /*
 		=== /Page ====
 */
