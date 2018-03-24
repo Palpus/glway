@@ -34,7 +34,7 @@ $options = array(
 				'label'  => __( 'Заголовок события', 'fw' )
 			),
 			'tab_content' => array(
-				'type'  => 'textarea',
+				'type'  => 'wp-editor',
 				'desc'  => __( 'Описание события', 'fw' ),
 				'label' => __( 'Текст события', 'fw')
 			),
