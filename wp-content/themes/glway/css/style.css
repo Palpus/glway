@@ -262,8 +262,9 @@ footer a{
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
 body {
-    background-size: cover;
-    background-position: left;
+    background-size: contain;
+    background-position: left top;
+    background-attachment: inherit;
 }
 .navbar-toggle .icon-bar{
 	background: #FFF;
