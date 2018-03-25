@@ -116,10 +116,10 @@ header{
 	background: none;
 	box-shadow: none;
 }
-.enter{
+.enter {
 	position: absolute;
-	left: 15px;
-	top: 30px;
+	right: 73px;
+	top: 26px;
 }
 .lang a{
 	padding: 10px 15px;
@@ -225,12 +225,6 @@ footer{
 }
 footer a{
 	color: #FFF;
-}
-
-.enter {
-    position: absolute;
-    right: 73px;
-    top: 26px;
 }
 
 /*
