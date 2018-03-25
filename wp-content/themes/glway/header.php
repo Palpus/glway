@@ -28,6 +28,9 @@
 			<div class="row">
 				<nav class="navbar">
 						<div class="navbar-header col-md-12">
+							<div class="title")
+							     <h1><?php bloginfo('name'); ?></h1>
+							</div>
 							<div class="enter">
 							<?php
 							$enter = ( function_exists( 'fw_get_db_settings_option' ) ) ? fw_get_db_settings_option('enter') : '';
