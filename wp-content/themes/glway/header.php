@@ -28,19 +28,23 @@
 			<div class="row">
 				<nav class="navbar">
 						<div class="navbar-header col-md-12">
-							<div class="title">
+							<div class="title col-md-3">
 							     <h1><?php bloginfo('name'); ?></h1>
 							</div>
-							<div class="enter">
-							<?php
-							$enter = ( function_exists( 'fw_get_db_settings_option' ) ) ? fw_get_db_settings_option('enter') : '';
-							if( !empty( $enter ) ) :
-								?>
-								<a href="<?php echo $enter ?>">Войти</a>
-							<?php endif ?>
+							
+							<div class="col-md-6">
+								<?php
+								the_custom_logo();?>
 							</div>
-							<?php
-							the_custom_logo();?>
+							<div class="enter col-md-3">
+								<?php
+								$enter = ( function_exists( 'fw_get_db_settings_option' ) ) ? fw_get_db_settings_option('enter') : '';
+								if( !empty( $enter ) ) :
+									?>
+									<a href="<?php echo $enter ?>">Войти</a>
+								<?php endif ?>
+							</div>
+							
 							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-main">
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
