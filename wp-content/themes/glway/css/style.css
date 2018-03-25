@@ -269,6 +269,11 @@ body {
 .navbar-toggle .icon-bar{
 	background: #FFF;
 }
+.enter {
+    position: absolute;
+    right: 73px;
+    top: 26px;
+	}
 }
 
 /* Landscape phones and smaller */
