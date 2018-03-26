@@ -261,8 +261,10 @@ body {
     background-position: left top;
     background-attachment: inherit;
 }
-.navbar-toggle .icon-bar{
-	background: #FFF;
+.navbar-toggle {
+    position: absolute;
+    top: 12px;
+    right: 10px;
 }
 }
 
