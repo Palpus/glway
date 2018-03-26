@@ -48,9 +48,6 @@ header{
 
 	background-size: 100%;
 }
-.title{
-    background: #3d80ce82;	
-}
 .navbar-header h1{
 	font-size: 30px;
 	color: #FFF;
@@ -279,7 +276,9 @@ body {
 
 /* Landscape phones and smaller */
 @media (max-width: 480px) {
-	
+	.navbar-header h1{
+		text-align: left;
+	}
 }
 @media only screen and (max-width: 800px){
 	#trp-floater-ls {
