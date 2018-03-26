@@ -49,11 +49,11 @@ header{
 	background-size: 100%;
 }
 .title{
-    background: #ffffff61;	
+    background: #3d80ce82;	
 }
 .navbar-header h1{
 	font-size: 30px;
-	color: #c9906f;
+	color: #FFF;
 	display: block;
 	margin: 0 auto;
 	margin-top: 10px;
@@ -115,9 +115,7 @@ header{
 	box-shadow: none;
 }
 .enter {
-	position: absolute;
-	right: 73px;
-	top: 26px;
+	padding-top: 15px;
 }
 .lang a{
 	padding: 10px 15px;
