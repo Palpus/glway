@@ -266,6 +266,9 @@ body {
     top: 12px;
     right: 10px;
 }
+.navbar-toggle .icon-bar {
+    background: #FFF;
+}
 .enter {
     text-align: center;
 }
@@ -276,9 +279,7 @@ body {
 
 /* Landscape phones and smaller */
 @media (max-width: 480px) {
-	.navbar-toggle {
-	    margin-top: -40px;
-	}
+	
 }
 @media only screen and (max-width: 800px){
 	#trp-floater-ls {
