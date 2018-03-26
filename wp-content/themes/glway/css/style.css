@@ -266,6 +266,12 @@ body {
     top: 12px;
     right: 10px;
 }
+.enter {
+    text-align: center;
+}
+.title {
+    margin-bottom: 10px;
+}
 }
 
 /* Landscape phones and smaller */
