@@ -27,16 +27,16 @@
 		<div class="container">
 			<div class="row">
 				<nav class="navbar">
-						<div class="navbar-header col-md-12">
-							<div class="title col-md-3">
+						<div class="navbar-header col-md-12 col-sm-12 col-xs-12">
+							<div class="title col-md-3 col-sm-6 col-xs-12">
 							     <h1><?php bloginfo('name'); ?></h1>
 							</div>
 							
-							<div class="col-md-6">
+							<div class="col-md-6 col-sm-6 col-xs-12">
 								<?php
 								the_custom_logo();?>
 							</div>
-							<div class="enter col-md-3">
+							<div class="enter col-md-3 col-sm-12 col-xs-12">
 								<?php
 								$enter = ( function_exists( 'fw_get_db_settings_option' ) ) ? fw_get_db_settings_option('enter') : '';
 								if( !empty( $enter ) ) :
@@ -51,7 +51,7 @@
 								<span class="icon-bar"></span>
 							</button>
 						</div>
-						<div class="collapse navbar-collapse col-md-12" id="navbar-main">
+						<div class="navbar-collapse col-md-12 col-sm-12 col-xs-12 collapse" id="navbar-main">
 							<?php
 							    wp_nav_menu( array(
 							    	'theme_location' => 'menu-1',
