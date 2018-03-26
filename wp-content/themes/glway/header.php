@@ -28,11 +28,11 @@
 			<div class="row">
 				<nav class="navbar">
 						<div class="navbar-header col-md-12 col-sm-12 col-xs-12">
-							<div class="title col-md-3 col-sm-6 col-xs-12">
+							<div class="title col-md-3 col-sm-6 col-xs-3">
 							     <h1><?php bloginfo('name'); ?></h1>
 							</div>
 							
-							<div class="col-md-6 col-sm-6 col-xs-12">
+							<div class="col-md-6 col-sm-6 col-xs-6">
 								<?php
 								the_custom_logo();?>
 							</div>
