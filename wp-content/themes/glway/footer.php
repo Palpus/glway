@@ -29,14 +29,14 @@
 					$facebook = ( function_exists( 'fw_get_db_settings_option' ) ) ? fw_get_db_settings_option('facebook') : '';
 					if( !empty( $facebook ) ) :
 						?>
-						<a href="<img src="<?php echo get_template_directory_uri() ?>/img/facebook.png"/></a>
+						<a href="<?php echo $facebook ?>"><img src="<?php echo get_template_directory_uri() ?>/img/facebook.png"/></a>
 					<?php endif ?>
 
 					<?php
 					$twitter = ( function_exists( 'fw_get_db_settings_option' ) ) ? fw_get_db_settings_option('twitter') : '';
 					if( !empty( $twitter ) ) :
 						?>
-						<a href="<img src="<?php echo get_template_directory_uri() ?>/img/twitter.png"/></a>
+						<a href="<?php echo $twitter ?>"><img src="<?php echo get_template_directory_uri() ?>/img/twitter.png"/></a>
 					<?php endif ?>
 				</div>
 			</div>
