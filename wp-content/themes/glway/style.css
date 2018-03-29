@@ -39,4 +39,9 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 .navbar-header{
 	padding-top: 10px;
 }
-
+.social{
+	margin-top: 10px;
+}
+.social a img{
+	width: 35px;
+}
