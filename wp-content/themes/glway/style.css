@@ -40,7 +40,13 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 	padding-top: 10px;
 }
 .social{
-	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.social a{
+	margin-right: 25px;
+}
+.social a:last-child{
+	margin-right: 0;
 }
 .social a img{
 	width: 35px;
