@@ -3,7 +3,6 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 text-center">
-				glway.com &copy 2018<br>
 					<div class="social text-center">
 					<?php
 					$vk = ( function_exists( 'fw_get_db_settings_option' ) ) ? fw_get_db_settings_option('vk') : '';
@@ -33,6 +32,7 @@
 						<a href="<?php echo $twitter ?>"><img src="<?php echo get_template_directory_uri() ?>/img/twitter.png"/></a>
 					<?php endif ?>
 				</div>
+				glway.com &copy 2018<br>
 				<?php
 				$agreement = ( function_exists( 'fw_get_db_settings_option' ) ) ? fw_get_db_settings_option('agreement') : '';
 				if( !empty( $agreement ) ) :
