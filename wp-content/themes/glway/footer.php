@@ -45,7 +45,8 @@
 					?>
 					<a href="#myModal" data-toggle="modal">Пользовательское соглашение</a>
 				<?php endif ?>
-				glway.com &copy 2018<br>
+				<br>
+				glway.com &copy 2018
 			</div>
 			<!-- HTML-код модального окна-->
 			<div id="myModal" class="modal fade">
