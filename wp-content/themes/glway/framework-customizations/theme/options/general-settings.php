@@ -45,6 +45,11 @@ $options = array(
 								'desc' => __('Введите ссылку', 'glway'),
 								'type'  => 'text',
 							),
+							'youtube'    => array(
+								'label' => __( 'Ютуб', 'glway' ),
+								'desc' => __('Введите ссылку', 'glway'),
+								'type'  => 'text',
+							),
 						)
 					),
 				)
