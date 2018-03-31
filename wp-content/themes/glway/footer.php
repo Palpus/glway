@@ -8,35 +8,35 @@
 					$vk = ( function_exists( 'fw_get_db_settings_option' ) ) ? fw_get_db_settings_option('vk') : '';
 					if( !empty( $vk ) ) :
 						?>
-						<a href="<?php echo $vk ?>"><img src="<?php echo get_template_directory_uri() ?>/img/vk.png"/></a>
+						<a href="<?php echo $vk ?>" target="_blank" ><img src="<?php echo get_template_directory_uri() ?>/img/vk.png"/></a>
 					<?php endif ?>
 
 					<?php
 					$inst = ( function_exists( 'fw_get_db_settings_option' ) ) ? fw_get_db_settings_option('inst') : '';
 					if( !empty( $inst ) ) :
 						?>
-						<a href="<?php echo $inst ?>"><img src="<?php echo get_template_directory_uri() ?>/img/instagram.png"/></a>
+						<a href="<?php echo $inst ?>" target="_blank" ><img src="<?php echo get_template_directory_uri() ?>/img/instagram.png"/></a>
 					<?php endif ?>
 
 					<?php
 					$facebook = ( function_exists( 'fw_get_db_settings_option' ) ) ? fw_get_db_settings_option('facebook') : '';
 					if( !empty( $facebook ) ) :
 						?>
-						<a href="<?php echo $facebook ?>"><img src="<?php echo get_template_directory_uri() ?>/img/facebook.png"/></a>
+						<a href="<?php echo $facebook ?>" target="_blank" ><img src="<?php echo get_template_directory_uri() ?>/img/facebook.png"/></a>
 					<?php endif ?>
 
 					<?php
 					$twitter = ( function_exists( 'fw_get_db_settings_option' ) ) ? fw_get_db_settings_option('twitter') : '';
 					if( !empty( $twitter ) ) :
 						?>
-						<a href="<?php echo $twitter ?>"><img src="<?php echo get_template_directory_uri() ?>/img/twitter.png"/></a>
+						<a href="<?php echo $twitter ?>" target="_blank" ><img src="<?php echo get_template_directory_uri() ?>/img/twitter.png"/></a>
 					<?php endif ?>
 						
 					<?php
 					$youtube = ( function_exists( 'fw_get_db_settings_option' ) ) ? fw_get_db_settings_option('youtube') : '';
 					if( !empty( $youtube ) ) :
 						?>
-						<a href="<?php echo $youtube ?>"><img src="<?php echo get_template_directory_uri() ?>/img/youtube.png"/></a>
+						<a href="<?php echo $youtube ?>" target="_blank" ><img src="<?php echo get_template_directory_uri() ?>/img/youtube.png"/></a>
 					<?php endif ?>
 				</div>
 				<?php
